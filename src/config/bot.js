@@ -25,9 +25,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Eating cheese",
         // Activity type number (0 = Playing).
-        type: 0, 
+        type: 4, Eating
       },
     ],
   },
@@ -88,7 +88,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
+      primary: " #FFFF00", 
       secondary: "#2F3136", 
 
       // Standard status colors for success/error/warning/info messages.
@@ -156,11 +156,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "Cheese",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "Pearls",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "🧀",
     },
 
     // Starting balance for new users.
@@ -170,18 +170,18 @@ export const botConfig = {
     baseBankCapacity: 100000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 0,
 
     // Work command random payout range.
-    workMin: 10,
-    workMax: 100,
+    workMin: 0,
+    workMax: 0,
 
     // Beg command random payout range.
-    begMin: 5,
-    begMax: 50,
+    begMin: 0,
+    begMax: 0,
 
     // Chance to succeed when robbing (0.4 = 40%).
-    robSuccessRate: 0.4,
+    robSuccessRate: 0.0,
 
     // Jail time after failed rob (milliseconds).
     // 3600000 = 1 hour.
@@ -423,7 +423,7 @@ export const botConfig = {
   messages: {
     noPermission: "You do not have permission to use this command.",
     cooldownActive: "Please wait {time} before using this command again.",
-    errorOccurred: "An error occurred while executing this command.",
+    errorOccurred: "missing cheese while executing this command.",
     missingPermissions:
       "I am missing required permissions to perform this action.",
     commandDisabled: "This command has been disabled.",
@@ -449,7 +449,7 @@ export const botConfig = {
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
+    verification: false,
     reactionRoles: true,
     joinToCreate: true,
 
